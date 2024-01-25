@@ -16,6 +16,7 @@ hr {
   margin: auto;
   max-width: 910px;
   padding: 0 30px;
+  
 }
 
 #owner {
@@ -33,6 +34,7 @@ table {
 
 .specials img {
   width: 200px;
+  
 }
 
 .specials td {

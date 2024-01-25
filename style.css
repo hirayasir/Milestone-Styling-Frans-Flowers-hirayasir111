@@ -1,22 +1,31 @@
+
+/*                                                                  */
 body {
-    color: #28897f;
+    color: #016A70;
     background-color: #fcfcfc;
     font-family: "Arial", san-serif;
+   
 }
 
+
+/*  */
 header {
-  color: #f7567c;
+  color: #D61355;
   font-family: 'Dancing Script', cursive;
   font-size: 36px;
 }
 
+/*  */
 hr {
-    overflow: visible; /* For IE */
+    overflow: visible; 
     padding: 0;
     border: none;
-    border-top: medium double #28897f;
-    color: #28897f;
+    border-top: medium double #016A70;
+    color: #016A70;
     text-align: center;
+
+
+  /*  */
 }
 hr:after {
     content: "ꕥ";
@@ -28,19 +37,27 @@ hr:after {
     background: #fcfcfc;
 }
 
+
+/*  */
+
 h2{
   font-family: 'Abril Fatface', serif;
   letter-spacing: 3px;
 }
 
 #donation {
-   color: #f7567c;
+   color: #D61355;
 }
 
+
+/*  */
 h5{
 text-decoration: line-through;
 }
 
+
+/*  */
 address{
   font-weight: bold;
 }
+
