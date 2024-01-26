@@ -1,21 +1,39 @@
+/* Add @font-face rule to generated web fonts .woff/.woff2 */
+@font-face {
+    font-family: 'zilla_slab_highlightbold';
+    src: url('font/zillaslabhighlight-bold-webfont.woff2') format('woff2'),
+         url('font/zillaslabhighlight-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-/*                                                                  */
+}
+
+/* I have set the text color to green #016A70, which provides good contrast and readability.
+The background color is set to a light shade #fcfcfc that helps reduce eye strain.
+The font family is “Arial,” a widely recognized San-serif font that is easy to read. 
+I chose these styles to enhance Frans's flower shop for older adults as they prioritize readability and legibility. */
 body {
     color: #016A70;
     background-color: #fcfcfc;
-    font-family: "Arial", san-serif;
-   
+    font-family: "Arial", sans-serif;
+
 }
 
 
-/*  */
+/* I changed the color to a vibrant shade that adds a touch of liveliness to the header. 
+The font family is set to dancing script, a cursive font that adds elegance and charm.
+I also increased the font size to 36px to make the header more permanent and easily readable for older adults.
+These changes were made to enhance the visually appealing of Fran’s Flower Shop for older adults. */
 header {
   color: #D61355;
   font-family: 'Dancing Script', cursive;
   font-size: 36px;
+  font-weight: bold;
 }
 
-/*  */
+/* This CSS comment is for styling the horizontal rule element.
+I have given it a new look by adding a flower emoji as a decorative element. I have selected a different flower emoji from the video that was mentioned. The flower emoji adds a touch of whimsy and beauty to the horizontal rule.
+This change was made to enhance the overall design of Fran’s flower shop for older adults.  */
 hr {
     overflow: visible; 
     padding: 0;
@@ -25,10 +43,10 @@ hr {
     text-align: center;
 
 
-  /*  */
+
 }
 hr:after {
-    content: "ꕥ";
+    content: "❁";
     display: inline-block;
     position: relative;
     top: -0.7em;
@@ -38,11 +56,14 @@ hr:after {
 }
 
 
-/*  */
+/* This CSS comment is for styling the section. I have added the font-family: 'Abril Fatface', serif and set it donation to bold to easily readable for older adults. 
+Centering the “About US & Specials” area to create a visually balanced and appealing design.*/
 
 h2{
   font-family: 'Abril Fatface', serif;
   letter-spacing: 3px;
+  text-align: center;
+  
 }
 
 #donation {
@@ -50,14 +71,39 @@ h2{
 }
 
 
-/*  */
+/*This CSS comment is for styling the decoration for h5 to show the discounted prices more prominent on the page*/
+
 h5{
 text-decoration: line-through;
 }
 
 
-/*  */
+/* This CSS comment is for styling the address comment. I have added the font-weight property and set it to bold. This change made the address stand out and be easily readable for older adults. */
+
 address{
   font-weight: bold;
 }
 
+
+/* centering the “visit us” area to create a visually balanced and appealing design.
+This helps draw attention to the important information about visiting Frans's flower shops. */
+
+.visit-us {
+
+  text-align: center;
+}
+
+/* This choice adds a personality touch and draws attention to the invitation.*/
+
+blockquote {
+  font-size: 25px;
+  font-family: 'zilla_slab_highlightbold';
+  text-align: center;
+}
+
+
+/* This CSS comment is for styling the footer. I have added the font-weight property and set it to bold to easily readable for older adults*/
+
+footer{
+  font-weight: bold;
+}
